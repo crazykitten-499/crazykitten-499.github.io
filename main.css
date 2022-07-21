@@ -26,6 +26,7 @@ body {
   height: auto;
 min-height: 300px;
   font-size: 20px;
+  overflow:hidden
 }
 
 .navibar {
@@ -67,20 +68,21 @@ background: darkorange;
 }
 
 .card figure img {
-	width: 75%;
-	padding-left: 33%;
+	width: 100%;
+	padding-left: 0%;
+  margin:0 auto;
 }
 .card video{
-	width: 65%;
-	padding-left: 30%;
+	width: 100%;
+	padding-left: 20%;
 }
 #small{
 	width: 65%;
-	padding-left: 550px;
+	padding-left: 50%;
 }
 #big{
-	width: 100%;
-	padding-left: 480px;
+	width: 160%;
+	padding-left: 20%;
 }
 figcaption {
 	font-size: 12px;
@@ -89,5 +91,9 @@ figcaption {
 }
 #figcaption {
 	font-size: 12px;
-padding-left: 650px;
+padding-left: 60%;
+}
+
+img {
+  margin: 0 auto;
 }
